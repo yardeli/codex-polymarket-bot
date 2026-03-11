@@ -1,0 +1,38 @@
+[
+  {
+    "market_id": "miami-humidity-above-75",
+    "city": "Miami",
+    "lat": 25.7617,
+    "lon": -80.1918,
+    "metric": "humidity",
+    "direction": "above",
+    "lower": 75,
+    "upper": null,
+    "implied_probability": 0.10,
+    "price_cents": 10
+  },
+  {
+    "market_id": "denver-temp-between-0-5c",
+    "city": "Denver",
+    "lat": 39.7392,
+    "lon": -104.9903,
+    "metric": "temperature",
+    "direction": "between",
+    "lower": 0,
+    "upper": 5,
+    "implied_probability": 0.13,
+    "price_cents": 13
+  },
+  {
+    "market_id": "seattle-rain-yes",
+    "city": "Seattle",
+    "lat": 47.6062,
+    "lon": -122.3321,
+    "metric": "rain",
+    "direction": "event",
+    "lower": null,
+    "upper": null,
+    "implied_probability": 0.22,
+    "price_cents": 22
+  }
+]
